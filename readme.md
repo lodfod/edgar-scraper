@@ -1,6 +1,6 @@
 Steps to run scraper:
 
-1. Install GeckoDriver and FireFox\
+1. Install [GeckoDriver](https://github.com/mozilla/geckodriver/releases) and [FireFox](https://www.mozilla.org/en-US/firefox/new/)\
   a. on line 13 in ```main.py```, replace the given GeckoDriver executable's location with yours. 
     For example:
     

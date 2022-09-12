@@ -10,7 +10,7 @@ from selenium.common.exceptions import ElementNotInteractableException
 
 
 date = datetime.datetime.now()
-driver = webdriver.Firefox(executable_path="/Users/archisharun/Downloads/geckodriver")
+driver = webdriver.Firefox(executable_path="/path/to/geckodriver")
 
 
 

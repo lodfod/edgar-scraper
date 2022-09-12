@@ -1,3 +1,6 @@
+# EDGAR Filings Scraper
+
+
 Steps to run scraper:
 
 1. Install [GeckoDriver](https://github.com/mozilla/geckodriver/releases) and [FireFox](https://www.mozilla.org/en-US/firefox/new/)\

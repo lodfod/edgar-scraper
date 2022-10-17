@@ -107,7 +107,7 @@ def scrape_all(page_source):
         time.sleep(1)
         documents_button = driver.find_element("xpath", '//*[@id="documentsbutton"]')
         documents_button.click()
-        time.sleep(1)
+        time.sleep(2)
         primary_doc = driver.find_element("xpath", '//*[@id="formDiv"]/div/table/tbody/tr[2]/td[3]/a')
         primary_doc.click()
         time.sleep(1)
@@ -247,8 +247,6 @@ for i in range(len(pages)-3):
 
 for page_source in sources:
     scrape_all(page_source)
-
-
 
 
 
